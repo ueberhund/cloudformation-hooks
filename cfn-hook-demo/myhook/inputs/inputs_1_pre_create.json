@@ -1,0 +1,13 @@
+{
+  "AWS::S3::Bucket": {
+    "resourceProperties": {
+      "BucketName": "test-compliant",
+      "Tags": [
+        {
+            "Key": "organization-id",
+            "Value":"test-value"
+        }
+      ]
+    }
+  }
+}

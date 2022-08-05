@@ -1,0 +1,8 @@
+{
+    "AWS::S3::Bucket": {
+      "resourceProperties": {
+        "BucketName": "test-invalid_update"
+      }
+    }
+}
+  
